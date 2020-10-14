@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="250dp"
+        app:srcCompat="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/textview_info"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#16191A"
+        android:text="SIGN UP NOW"
+        />
+
+    <ImageView
+        android:id="@+id/imageview_google"
+        android:layout_width="250dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="10dp"
+
+        app:srcCompat="@drawable/gooogle"/>
+    <ImageView
+        android:id="@+id/imageview_facebook"
+        android:layout_width="250dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="10dp"
+
+        app:srcCompat="@drawable/facebook"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:hint="OR"
+        />
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="#579EC6"
+        android:text="Local Sign Up"
+
+        />
+
+
+</LinearLayout>

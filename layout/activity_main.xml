@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity"
+    android:background="@drawable/background1">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="10dp"
+
+        app:srcCompat="@drawable/logo"/>
+    <TextView
+        android:id="@+id/textview_info"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#16191A"
+        android:text="LOCAL SIGN UP "
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp">
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="20dp"
+
+        android:gravity="center"
+        android:background="#b4f2f6"
+
+        android:hint="First Name"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="20dp"
+
+        android:gravity="center"
+        android:background="#b4f2f6"
+
+        android:hint="Last Name"/>
+    </LinearLayout>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp">
+    <EditText
+        android:id="@+id/BuildinNo"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="20dp"
+
+        android:gravity="center"
+        android:background="#b4f2f6"
+
+        android:hint="Building No"/>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="20dp"
+
+        android:gravity="center"
+        android:background="#b4f2f6"
+
+        android:hint="Email"/>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <EditText
+                android:id="@+id/flatNo"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="20dp"
+
+                android:gravity="center"
+                android:background="#b4f2f6"
+
+                android:hint="Flat no"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="20dp"
+
+                android:gravity="center"
+                android:background="#b4f2f6"
+
+                android:hint="DOB"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+            <EditText
+                android:id="@+id/suburb"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="20dp"
+
+                android:gravity="center"
+                android:background="#b4f2f6"
+
+                android:hint="Suburb"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+            <EditText
+                android:id="@+id/contactNo"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="20dp"
+
+                android:gravity="center"
+                android:background="#b4f2f6"
+
+                android:hint="Contact No"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:gravity="center"
+                android:background="#b4f2f6"
+
+                android:hint="Password"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <EditText
+                android:id="@+id/cnfPassword"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="20dp"
+
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:background="#b4f2f6"
+
+                android:hint="Confirm Password"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+   <!-- <Button
+        android:id="@+id/signup"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+
+        android:background="#579EC6"
+        android:text="Sign Up"/>-->
+
+    <include
+        layout="@layout/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/progressbtn1"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:textStyle="italic"
+
+        android:textColor="#0D76DE"
+        android:text="Already Signed up."
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
+</LinearLayout>

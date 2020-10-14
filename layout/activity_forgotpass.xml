@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgotpass"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:paddingRight="230dp"
+        android:layout_marginTop="20dp"
+
+        app:srcCompat="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#161718"
+        android:text="Retrieve Password"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="100dp"
+
+        android:gravity="center"
+        android:background="#b4f2f6"
+
+        android:hint="Email"/>
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#579EC6"
+        android:text="Verify"
+
+        />
+    <TextView
+        android:id="@+id/textview_login"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:textStyle="italic"
+        android:textColor="#3407f8"
+        android:text="Try another option."
+        />
+</LinearLayout>
